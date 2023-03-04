@@ -1,0 +1,120 @@
+h1 {
+  text-align: center;
+  color: rgb(240, 225, 218);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 3px 3px rgb(172, 139, 124);
+  margin: 40px;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(224, 100, 42);
+}
+
+fieldset {
+  border: solid 3px #080808;
+  width: 1000px;
+  margin-left: 120px;
+  padding-left: 15px;
+  opacity: 100%;
+  color: rgb(224, 100, 42);
+  background-color: rgb(235, 225, 179);
+}
+
+body {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+  border-color: orangered;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 6px;
+  text-align: center;
+  border: 1px #080808 solid;
+  border-color: orangered;
+}
+td {
+  border: 1px #080808 solid;
+  border-color: orangered;
+}
+
+tr {
+  border: 1px #080808 solid;
+  border-color: orangered;
+}
+
+#PF {
+  width: 38%;
+}
+
+#SP {
+  width: 15%;
+}
+
+#TF {
+  width: 11%;
+}
+#CF {
+  width: 16%;
+}
+
+#FP {
+  width: 20%;
+}
+#FS {
+  width: 16%;
+}
+#FT {
+  width: 20%;
+}
+#FC {
+  width: 10%;
+}
+
+#FQ {
+  width: 13%;
+}
+
+
+#titulo
+{
+  Position: relative;
+  left: 23px;
+}
+
+#autor{
+  Position: relative;
+  left: 24px;
+}
+
+#dni{
+  Position: relative;
+  left: 50px;
+  
+}
+#nombre{
+  Position: relative;
+  left: 14px;
+}
+
+#dirccion{
+  Position: relative;
+  left: 2px;
+}
+
+#titulos{
+  Position: relative;
+  left: 80px;
+  
+}
+
+.nodisponible{
+  color:white;
+  background-color: aqua;
+}

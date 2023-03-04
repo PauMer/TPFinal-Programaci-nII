@@ -1,0 +1,106 @@
+{
+  "libros": [
+    {
+      "titulo": "El corazon delator",
+      "autor": "Edgar Allan Poe",
+      "disponible": true,
+      "id": 1
+    },
+    {
+      "titulo": "Anabell Lee",
+      "autor": "Edgar Allan Poe",
+      "disponible": false,
+      "id": 2
+    },
+    {
+      "titulo": "Los ojos del perro siberiano",
+      "autor": "Antonio Santa Ana",
+      "disponible": true,
+      "id": 3
+    },
+    {
+      "titulo": "El palacio de la Luna",
+      "autor": "Paul Auster",
+      "disponible": true,
+      "id": 4
+    },
+    {
+      "titulo": "Matemagia",
+      "autor": "Andres Rieznik",
+      "disponible": true,
+      "id": 5
+    }
+  ],
+  "alumnos": [
+    {
+      "dni": "12345678",
+      "nombre": "Pepe",
+      "direccion": "Centro",
+      "debeLibros": false,
+      "id": 2
+    },
+    {
+      "dni": "12345",
+      "nombre": "Lucas",
+      "direccion": "San Pablo",
+      "debeLibros": false,
+      "id": 4
+    },
+    {
+      "dni": "12",
+      "nombre": "Raquel",
+      "direccion": "BRS",
+      "debeLibros": true,
+      "id": 5
+    },
+    {
+      "dni": "56425",
+      "nombre": "Gustavo",
+      "direccion": "Villa Carmela",
+      "debeLibros": false,
+      "id": 6
+    }
+  ],
+  "prestamo": [
+    {
+      "fechaEntrega": "2022-11-23",
+      "fechaDevolucion": "2022-11-25",
+      "libroId": "1",
+      "alumnoId": "2",
+      "alumno": "Pepe",
+      "libro": "El corazon delator",
+      "pendiente": false,
+      "id": 3
+    },
+    {
+      "fechaEntrega": "2022-11-24",
+      "fechaDevolucion": "2022-11-24",
+      "libroId": "3",
+      "alumnoId": "4",
+      "alumno": "Lucas",
+      "libro": "Los ojos del perro siberiano",
+      "pendiente": false,
+      "id": 4
+    },
+    {
+      "fechaEntrega": "2022-11-23",
+      "fechaDevolucion": "2022-11-22",
+      "libroId": "2",
+      "alumnoId": "5",
+      "alumno": "Raquel",
+      "libro": "Anabell Lee",
+      "pendiente": false,
+      "id": 6
+    },
+    {
+      "fechaEntrega": "2023-03-04",
+      "fechaDevolucion": "",
+      "libroId": "2",
+      "alumnoId": "5",
+      "alumno": "Raquel",
+      "libro": "Anabell Lee",
+      "pendiente": true,
+      "id": 7
+    }
+  ]
+}
